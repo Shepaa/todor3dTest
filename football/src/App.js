@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './global.css'
 import './App.css'
-import { Header } from './Features/Header '
+import { Header } from './Features/Header/Header.js'
 import teams1 from '../src/JSON/team1.json'
 import teams2 from '../src/JSON/team2.json'
 import teams3 from '../src/JSON/team3.json'

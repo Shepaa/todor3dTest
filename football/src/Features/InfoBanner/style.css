@@ -37,7 +37,7 @@
 
 .team-border {
     border: 20px solid #1A1818;
-    border-radius: 20px;
+    border-radius: 50%;
 }
 
 .vs-wrapper {
