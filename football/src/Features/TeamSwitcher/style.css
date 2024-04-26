@@ -1,0 +1,29 @@
+.teams-block-wrapper {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    border-bottom: 1px solid #353535;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+
+.team_label {
+    color: #6B6B6B;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + .team_label + .btn_underline {
+    display: block;
+}
+
+.btn_underline {
+    display: none;
+    height: 2px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #B4EB17;
+}

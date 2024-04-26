@@ -1,0 +1,62 @@
+.banner-wrapper {
+    display: flex;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #353535;
+}
+
+.team_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.manchester-city_item__photo {
+    width: 80px;
+    height: 80px;
+    background-image: url('../../../src/Images/manchesterCityLogo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.team_item__title {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #ffff;
+    margin-top: 16px;
+}
+
+.team-border {
+    border: 20px solid #1A1818;
+    border-radius: 20px;
+}
+
+.vs-wrapper {
+    font-family: Bebas Neue, sans-serif;
+    color: #ffff;
+    font-size: 85.43px;
+    font-weight: 400;
+    line-height: 102.52px;
+    text-align: left;
+}
+
+.liverpool_item__photo {
+    width: 80px;
+    height: 80px;
+    background-image: url('../../../src/Images/LiverpoolLogo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border-radius: 50%;
+    overflow: hidden;
+}
